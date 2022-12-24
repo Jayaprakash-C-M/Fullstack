@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles Sheet only -->
+    <style>
+        .img2, .img3, .img4, .img5, .img6, .img7
+        {
+            padding: 20px;
+            width: 100px;
+            filter: grayscale(100%);
+        }
+
+        .card
+        {
+            margin: 20px;
+        }
+
+        .bg-image
+        {
+
+            font-family: 'object-fit: cover;';
+            opacity: 60%;
+            overflow: hidden;
+            height:100%;
+        }
+
+        .price li:before {
+          padding-right: 5px;
+          content: '✓'; 
+            color: green;
+        } 
+
+
+        #footer li:before {
+          content: ">";
+          padding-right: 5px;
+          color: blue;
+        }
+
+        .p{
+            border-radius: 25px;
+        }
+    </style>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- Icons link of Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    
+    <title>ARSHA</title>
+  </head>
+  <body>
+    <!-- Navigatin bar  -->
+    <section id="nav">
+    <div class="container-fluid" style="background-color: rgb(11, 36, 104)">
+        <ul class="nav justify-content-end">
+          <li class="nav-item col-md-3 text-center">
+            <a class="nav-link ARSHA text-white font-weight-bold" aria-current="page" href="#"
+              >ARSHA</a
+            >
+          </li>
+          <li class="nav-item col-md">
+            <a class="nav-link Home text-light" aria-current="page" href="#"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item col-md">
+            <a class="nav-link About text-light" aria-current="page" href="#"
+              >About</a
+            >
+          </li>
+          <li class="nav-item col-md">
+            <a class="nav-link Services text-light" aria-current="page" href="#"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item col-md">
+            <a
+              class="nav-link Portfolio text-light"
+              aria-current="page"
+              href="#"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item col-md">
+            <a class="nav-link Team text-light" aria-current="page" href="#"
+              >Team</a
+            >
+          </li>
+          <li class="nav-item dropdown text-center col-md">
+            <a
+              class="nav-link dropdown-toggle text-light"
+              data-bs-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Drop Down</a
+            >
+          </li>
+          <li class="nav-item col-md">
+            <a class="nav-link text-light" href="#">Contact</a>
+          </li>
+          <li class="nav-item col-md-2 text-center">
+            <a class="nav-link active text-light">Get started</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- introduction -->
+    <section id="intro">
+      <div class="container-fluid intro text-white d-flex flex-row ps-5" style="background-color: rgb(15, 42, 117)">
+        <div class="d-flex flex-column col-md-6 mt-5 px-5 pt-3">
+            <div><h1>Better Solution For Your Business</h1></div>
+            <div class="pt-3">
+              We are team of tallented designers making websites with bootstrap
+            </div>
+            <div class="intro container d-flex flex-row mt-5">
+                <div class="col-md-3 text-center btn btn-primary" style="border-radius: 25px;">Get Started</div>
+                <div class="col-md-6 text-light text-start btn"><i class="fa-solid fa-circle-play"></i> watch video</div> 
+            </div>
+        </div>
+        <div class="intro col-6 px-5 pt-3">
+          <img
+            class="img-fluid"
+            src="./assets/img/hero-img.png"
+            alt="designers making websites"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Clients Images  -->
+    <section id="clients">
+    <div class="clients container-fluid d-flex flex-row justify-content-between">
+      <div class="col-0.5"></div>
+      <div class="">
+        <img
+          class="img2"
+          src="./assets/img/clients/client-1.png"
+          alt="clients"
+        />
+      </div>
+      <div class="">
+        <img
+          class="img3 "
+          src="./assets/img/clients/client-2.png"
+          alt="clients"
+        />
+      </div>
+      <div class="">
+        <img
+          class="img4"
+          src="./assets/img/clients/client-3.png"
+          alt="clients"
+        />
+      </div>
+      <div class="">
+        <img
+          class="img5"
+          src="./assets/img/clients/client-4.png"
+          alt="clients"
+        />
+      </div>
+      <div class="">
+        <img
+          class="img6"
+          src="./assets/img/clients/client-5.png"
+          alt="clients"
+        />
+      </div>
+      <div class="">
+        <img
+          class="img7"
+          src="./assets/img/clients/client-6.png"
+          alt="clients"
+        />
+      </div>
+      <div class="col-0.5"></div>
+    </div>
+    </section>
+    <!--  About US -->
+    <section id="about" class="container-fluid">
+      <div class="about text-center text-info">ABOUT US </div>
+      <div class="text-center">
+        <span class="d-inline px-3 m-1" style="background-color:rgba(131, 176, 197, 0.637); font-size: 0.1em;"></span>
+        <span class="d-inline px-3"  style="background-color:rgba(14, 168, 240, 0.637); font-size: 0.25em;"></span>
+        <span class="d-inline px-3 m-1 "  style="background-color: rgba(131, 176, 197, 0.637); font-size: 0.1em;"></span>
+      </div>
+    <div class="about container-fluid d-flex flex-row pt-4 " id="about-row">
+      <div class="col-1"></div>
+      <div class=" about d-flex flex-column text-alien-justify col-md-5 " id="about-col1">
+          Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit
+          amet.adipisicing elit. Maiores, tempora!
+          <ol type="I">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor consectetur adipisicing.</li>
+          </ol>
+        </div>
+        <div class="about container d-flex flex-column flex-fill col-md-5">
+          <div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            voluptatibus aut, temporibus dolores officia sed laborum? Laudantium
+            minima officia, expedita dolorem amet soluta nihil explicabo!
+          </div>
+          <div class="col-md-3 btn btn-primary d-inline mt-2" type="submit ">
+            Learn More
+          </div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+        
+    </section>
+    <!-- Discription -->
+    <section id="discription">
+    <div class="discription container-fluid d-flex flex-row bg-secondary bg-opacity-10 p-4 " id="discription-row">
+      <div class="col-1"></div>
+      <div class="col-md-5" id="discription-col1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti,
+        illum.
+        <div class="h6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+          odio.
+        </div>
+        <div class="">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere et
+          deserunt fugiat explicabo corporis dolor amet voluptates veniam alias
+          voluptatibus.
+        </div>
+        <div class="accordion pt-4" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Lorem ipsum dolor sit, amet consectetur adipisicing.
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong
+                  >Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit.</strong
+                >
+                It is shown by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Facere.
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>Lorem ipsum dolor sit amet consectetur..</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Excepturi, numquam.
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong
+                  >Lorem ipsum dolor sit amet consectetur adipisicing.</strong
+                >
+                It is hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5" id="discription-col2">
+        <img class="img-fluid" src="./assets/img/why-us.png" alt="why-us" />
+      </div>
+      <div class="col-1"></div>
+
+    </div>
+  </section>
+    <!-- comparison -->
+    <section id="comparison">
+    <div class="comparison container-fluid d-flex mx-5 p-5" id="comparison-row">
+      <div class="px-5"></div>
+      <div class="col-md-5 d-flex py-5" id="comparison-col1">
+        <img class="img-fluid" src="./assets/img/skills.png" alt="skills" />
+      </div>
+      <div class="col-md-5 text-alien-justify"  id="comparison-col2">
+        <div class="h5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+          praesentium.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          neque odio voluptatem consequatur at magnam delectus necessitatibus!
+          Ad, placeat ab.
+        </div>
+        <div class="d-flex justify-content-between p-3">
+          <div class="font-weight-bold">HTML</div>
+          <div class="font-weight-bold">100%</div>
+        </div>
+        <div class="progress d-flex">
+          <div
+            class="progress-bar bg-Info"
+            role="progressbar"
+            aria-label="Info example"
+            style="width: 100%"
+            aria-valuenow="100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+        <div class="d-flex justify-content-between p-3">
+          <div>CSS</div>
+          <div>90%</div>
+        </div>
+        <div class="progress d-flex">
+          <div
+            class="progress-bar bg-Info"
+            role="progressbar"
+            aria-label="Info example"
+            style="width: 90%"
+            aria-valuenow="100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+        <div class="d-flex justify-content-between  p-3">
+          <div>JAVASCRIPT</div>
+          <div>75%</div>
+        </div>
+        <div class="progress d-flex">
+          <div
+            class="progress-bar bg-Info"
+            role="progressbar"
+            aria-label="Info example"
+            style="width: 75%"
+            aria-valuenow="100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+
+        <div class="d-flex justify-content-between p-3">
+          <div>PHOTOSHOP</div>
+          <div>55%</div>
+        </div>
+        <div class="progress d-flex">
+          <div
+            class="progress-bar bg-Info"
+            role="progressbar"
+            aria-label="Info example"
+            style="width: 55%"
+            aria-valuenow="100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+      </div>
+      <div class="col-1"></div>
+    </div>
+  </section>
+  <!-- Services provided -->
+  <section id="Services" class=" container-fluid bg-secondary bg-opacity-10 pt-4">
+    <div class="h1 font-weight-bold text-center text-info">SERVICES</div>
+    <div class="text-center">
+      <span class="d-inline px-3 m-1" style="background-color:rgba(131, 176, 197, 0.637); font-size: 0.1em;"></span>
+      <span class="d-inline px-3"  style="background-color:rgba(14, 168, 240, 0.637); font-size: 0.25em;"></span>
+      <span class="d-inline px-3 m-1 "  style="background-color: rgba(131, 176, 197, 0.637); font-size: 0.1em;"></span>
+    </div>
+    <div class="container d-flex flex-column text-center "  id="comparison-row">
+      <div class="col-md-12 text-center py-4"  id="comparison-col1">
+        <div>
+          Lorem ipsum dolor sit amet consectetur,Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Fugit, impedit. Lorem ipsum dolor sit
+          amet. adipisicing elit. Voluptatibus, non labore! Tenetur distinctio
+          cupiditate vel sequi, aliquid laboriosam ex porro totam optio facere.
+        </div>
+      </div>
+      <div class="col-md-12 d-flex flex-row justify-content-between">
+        <div
+          class="d-flex flex-column card card-body shadow mb-5 bg-body rounded"
+          style="width: 18rem"
+        >
+          <i class="fa-solid fa-basketball" style="font-size: 30px;"></i>
+          <h5 class="card-title">Lorem, ipsum dolor.</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            itaque reiciendis voluptatibus, laudantium cumque obcaecati?
+          </p>
+        </div>
+        <div
+          class="d-flex flex-column card card-body shadow mb-5 bg-body rounded"
+          style="width: 18rem"
+        >
+        <i class="fa-regular fa-file-lines" style="font-size: 30px;"></i>
+          <h5 class="card-title">Lorem, ipsum dolor.</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            itaque reiciendis voluptatibus, laudantium cumque obcaecati?
+          </p>
+        </div>
+        <div
+          class="d-flex flex-column card card-body shadow mb-5 bg-body rounded"
+          style="width: 18rem"
+        >
+          <img src="" class="card-img-top" alt="" />
+          <h5 class="card-title">Lorem, ipsum dolor.</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            itaque reiciendis voluptatibus, laudantium cumque obcaecati?
+          </p>
+        </div>
+        <div
+          class="d-flex flex-column card card-body shadow mb-5 bg-body rounded"
+          style="width: 18rem"
+        >
+          <img src="" class="card-img-top" alt="" />
+          <h5 class="card-title">Lorem, ipsum dolor.</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            itaque reiciendis voluptatibus, laudantium cumque obcaecati?
+          </p>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- Action -->
+    <section id="action" class="container-flex">
+      <div
+        class="bg-image action col-md-12 img-responsive" id="action-row"
+        style="background-image: url('./assets/img/cta-bg.jpg')">
+        <div class="container d-flex flex-column text-start p-5">
+          <h1 class="text-white"><b>Call to Action</b></h1>
+            <div class=" d-flex flex-row">
+              <p class="text-white col-md-10 px-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit. Odio
+                quibusdam quaerat aliquam ratione dolorum fugit saepe magnam
+                soluta minus eius. Omnis aperiam in deserunt, sit eius deleniti
+                voluptatibus? Nam molestiae maxime mollitia quia optio sint iste
+                nostrum.
+              </p>
+              <div>
+                <button
+                  type="button"
+                  class="btn btn-primary  text-center" > Custom button
+                </button>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+  <!-- Portfolio -->
+  <section id="Portfolio">
+    <div class="container-fluid text-center pt-3">
+      <div class="h1 font-weight-bold col-sm-12 text-info">PORTFOLIO</div>
+      <div class="text-center">
+        <span class="d-inline px-3 m-1" style="background-color:rgba(131, 176, 197, 0.637); font-size: 0.1em;"></span>
+        <span class="d-inline px-3"  style="background-color:rgba(14, 168, 240, 0.637); font-size: 0.25em;"></span>
+        <span class="d-inline px-3 m-1 "  style="background-color: rgba(131, 176, 197, 0.637); font-size: 0.1em;"></span>
+      </div>
+      <div class="d-flex flex-row col-sm-12">
+        Lorem ipsum dolor sit amet consectetur,Lorem, ipsum dolor sit amet
+        consectetur adipisicing elit. Fugit, impedit. Lorem ipsum dolor sit
+        amet. adipisicing elit. Voluptatibus, non labore! Tenetur distinctio
+        cupiditate vel sequi, aliquid laboriosam ex porro totam optio facere
+        quaerat laborum, quas eos autem, dolorum reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, vero?
+      </div>
+      <div class="justify-content-around text-center col-sm-12 my-3">
+        <button type="button" class="btn btn-primary col-ms-5 text-end">All</button>
+        <button type="button" class="btn btn-light col-ms-1 text-center">App</button>
+        <button type="button" class="btn btn-light col-ms-1 text-center">Card</button>
+        <button type="button" class="btn btn-light col-ms-5 text-end">Web</button>
+      </div>
+      <div class="container d-flex flex-row justify-content-evenly">
+      <div class="d-flex flex-column justify-content-evenly m-3 col-md-4">
+        <img
+          src="./assets/img/portfolio/portfolio-1.jpg"
+          class="col-md-12 m-3 img-responsive"
+          alt="img-fluid"
+        />
+        <img
+        src="./assets/img/portfolio/portfolio-6.jpg"
+        class="col-md-12 m-3 img-responsive"
+        alt="img-fluid"
+        />
+      </div>
+      <div class="d-flex flex-column justify-content-evenly m-3 col-md-4">
+        <img
+          src="./assets/img/portfolio/portfolio-2.jpg"
+          class="col-md-12 m-3 img-responsive"
+          alt="img-fluid"
+        />
+        <img
+        src="./assets/img/portfolio/portfolio-5.jpg"
+        class="col-md-12 m-3 img-responsive"
+        alt="img-fluid"
+        />
+        <img
+        src="./assets/img/portfolio/portfolio-9.jpg"
+        class="col-md-12 m-3 img-responsive"
+        alt="img-fluid"
+        />
+      </div>
+      <div class="d-flex flex-column justify-content-evenly m-3 col-md-4">
+        <img
+          src="./assets/img/portfolio/portfolio-3.jpg"
+          class="col-md-12 m-3 img-responsive"
+          alt="img-fluid"
+        />
+        <img
+        src="./assets/img/portfolio/portfolio-4.jpg"
+        class="col-md-12 m-3 img-responsive"
+        alt="img-fluid"
+        />
+        <img
+        src="./assets/img/portfolio/portfolio-7.jpg"
+        class="col-md-12 m-3 img-responsive"
+        alt="img-fluid"
+        />
+        <img
+        src="./assets/img/portfolio/portfolio-8.jpg"
+        class="col-md-12 m-3 img-responsive"
+        alt="img-fluid"
+        />
+      </div>
+      </div>
+    </div>
+  </section>
+   <!-- TEAM -->
+   <section id="Team" class=" container-fluid bg-secondary bg-opacity-10 pt-4">
+    <div class="h1 font-weight-bold text-center text-info">TEAM</div>
+    <div class="text-center">
+      <span class="d-inline px-3 m-1" style="background-color:rgba(131, 176, 197, 0.637); font-size: 0.1em;"></span>
+      <span class="d-inline px-3"  style="background-color:rgba(14, 168, 240, 0.637); font-size: 0.25em;"></span>
+      <span class="d-inline px-3 m-1 "  style="background-color: rgba(131, 176, 197, 0.637); font-size: 0.1em;"></span>
+    </div>
+    <div class="d-flex flex-column text-center "  id="comparison-row">
+      <div class="text-center py-4">
+          Lorem ipsum dolor sit amet consectetur,Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Fugit, impedit. Lorem ipsum dolor sit
+          amet. adipisicing elit. Voluptatibus, non labore! Tenetur distinctio
+          cupiditate vel sequi, aliquid laboriosam ex porro totam optio facere.
+      </div>
+      <div class="col-md-12  container d-flex flex-row justify-content-between px-5  text-alien-justify">
+        <div
+          class="d-flex flex-row card card-body shadow mb-5 bg-body rounded container col-md-6 mx-3"
+          style="width: 18rem"
+        >
+          <div class="col-md-6 p-3">
+            <img src="./assets/img/team/team-1.jpg" class="card-img-left rounded-circle shadow-4-strong img-fluid" alt="team-1" />
+          </div>
+          <div class="col-md-6 p-3">
+            <h5 class="card-title">Walter White</h5>
+            <p class="card-title">Cheif Executive Officer</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p> 
+            <div class="d-flex flex-row text-end justify-content-start ">
+              <a class="nav-link About p-1 mx-2 bg-primary rounded-circle px-2"  style="color: white;" aria-current="page" href="#">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;"  aria-current="page" href="#">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;"  aria-current="page" href="#">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;" aria-current="page" href="#">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              </div>
+          </div>
+        </div>
+        <div
+          class="d-flex flex-row card card-body shadow mb-5 bg-body rounded container col-md-6 mx-3"
+          style="width: 18rem"
+        >
+          <div class="col-md-6 p-3">
+            <img src="./assets/img/team/team-2.jpg" class="card-img-left rounded-circle img-rounded img-fluid" alt="team-1" />
+          </div>
+          <div class="col-md-6 p-3">
+          <h5 class="card-title">Walter White</h5>
+          <p class="card-title">Cheif Executive Offer</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          </p> 
+          <div class="d-flex flex-row text-end justify-content-start ">
+            <a class="nav-link About p-1 mx-2 bg-primary rounded-circle px-2"  style="color: white;" aria-current="page" href="#">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;"  aria-current="page" href="#">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;"  aria-current="page" href="#">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;" aria-current="page" href="#">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12  container d-flex flex-row justify-content-between px-5 text-alien-justify">
+        <div
+          class="d-flex flex-row card card-body shadow mb-5 bg-body rounded container col-md-6 mx-3"
+          style="width: 18rem"
+        >
+          <div class="col-md-6 p-3">
+            <img src="./assets/img/team/team-3.jpg" class="card-img-left rounded-circle shadow-4-strong img-fluid" alt="team-1" />
+          </div>
+          <div class="col-md-6 p-3">
+            <h5 class="card-title">Walter White</h5>
+            <p class="card-title">Cheif Executive Officer</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p> 
+            <div class="d-flex flex-row text-end justify-content-start ">
+              <a class="nav-link About p-1 mx-2 bg-primary rounded-circle px-2"  style="color: white;" aria-current="page" href="#">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;"  aria-current="page" href="#">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;"  aria-current="page" href="#">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;" aria-current="page" href="#">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              </div>
+          </div>
+        </div>
+        <div
+          class="d-flex flex-row card card-body shadow mb-5 bg-body rounded container col-md-6 mx-3"
+          style="width: 18rem"
+        >
+          <div class="col-md-6 p-3">
+            <img src="./assets/img/team/team-4.jpg" class="card-img-left rounded-circle img-rounded img-fluid" alt="team-1" />
+          </div>
+          <div class="col-md-6 p-3">  
+          <h5 class="card-title">Walter White</h5>
+          <p class="card-title">Cheif Executive Offer</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          </p>
+          <div class="d-flex flex-row text-end justify-content-start ">
+            <a class="nav-link About p-1 mx-2 bg-primary rounded-circle px-2"  style="color: white;" aria-current="page" href="#">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;"  aria-current="page" href="#">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;"  aria-current="page" href="#">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;" aria-current="page" href="#">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            </div> 
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </section>
+    <!-- Pricing -->
+  <section id="Pricing" class=" container-fluid pt-3">
+    <div class="h1 font-weight-bold text-center text-info">PRICING</div>
+    <div class="text-center">
+      <span class="d-inline px-3 m-1" style="background-color:rgba(131, 176, 197, 0.637); font-size: 0.1em;"></span>
+      <span class="d-inline px-3"  style="background-color:rgba(14, 168, 240, 0.637); font-size: 0.25em;"></span>
+      <span class="d-inline px-3 m-1 "  style="background-color: rgba(131, 176, 197, 0.637); font-size: 0.1em;"></span>
+    </div>
+    <div class="d-flex flex-column text-center mx-5"  id="comparison-row">
+      <div class="col-md-12 text-center py-4"  id="comparison-col1">
+        <div>
+          Lorem ipsum dolor sit amet consectetur,Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Fugit, impedit. Lorem ipsum dolor sit
+          amet. adipisicing elit. Voluptatibus, non labore! Tenetur distinctio
+          cupiditate vel sequi, aliquid laboriosam ex porro totam optio facere.
+        </div>
+      </div>
+      <div class="price col-md-12 d-flex flex-row justify-content-between px-5">
+        <div
+          class="d-flex flex-column card card-body shadow mb-5 bg-body rounded text-start py-5"
+          style="width: 18rem"
+        >
+          <h5 class="card-title text-start text-secondary">Free Plan</h5>
+          <h6 class="card-title text-start text-secondary">$0</h6>
+          <p class="card-title text-start text-primary">per month</p>
+          <ul class="pt-5 pt-3" style="list-style: none;">
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet </li>
+              <li>Lorem ipsum dolor consectetur</li>
+              <li><del>Lorem, ipsum dolor sit amet</del></li>
+              <li><del>Lorem ipsum consectetur</del></li>
+              <li><del>Lorem ipsum dolor sit amet.</del></li>
+            </ul>
+            <div class="col-md-6 btn btn-outline-primary d-inline mt-2 " type="submit ">
+              Get Started
+            </div> 
+        </div>
+        <div
+        class="d-flex flex-column card card-body shadow mb-5 bg-body rounded text-start py-5"
+        style="width: 18rem; border-top: 4px solid rgb(0, 162, 255);"
+      >
+        <h5 class="card-title text-start text-secondary">Business Plan</h5>
+        <h6 class="card-title text-start text-secondary">$29</h6>
+        <p class="card-title text-start text-primary">per month</p>
+        <ul class="pt-5 pt-3" style="list-style: none;">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet </li>
+            <li>Lorem ipsum dolor consectetur</li>
+            <li>Lorem, ipsum dolor sit amet</li>
+            <li>Lorem ipsum consectetur.</li>
+            <li>Lorem ipsum dolor.</li>
+          </ul>
+          <div class="col-md-6 btn btn-outline-primary d-inline mt-2 " type="submit ">
+            Get Started
+          </div> 
+        </div>
+        <div
+        class="d-flex flex-column card card-body shadow mb-5 bg-body rounded text-start py-5"
+        style="width: 18rem"
+      >
+        <h5 class="card-title text-start text-secondary">Developer Plan</h5>
+        <h6 class="card-title text-start text-secondary">$49</h6>
+        <p class="card-title text-start text-primary">per month</p>
+          <ul class="pt-5 pt-3" style="list-style: none;">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet </li>
+            <li>Lorem ipsum dolor consectetur</li>
+            <li>Lorem, ipsum dolor sit amet</li>
+            <li>Lorem ipsum consectetur.</li>
+            <li>Lorem ipsum dolor.</li>
+          </ul>
+          <div class="col-md-6 btn btn-outline-primary d-inline mt-2 " type="submit ">
+            Get Started
+          </div> 
+        </div>
+        </div>
+    </section>
+          <!-- Frequently Asked Questions -->
+    <section id="Questions">
+      <div class="container-fluid d-flex flex-row bg-secondary bg-opacity-10 p-4" id="discription-row">
+        <div class="col-1"></div>
+        <div class="col-md-10 text-center" id="discription-col1">
+          <div class="h2 text-info"> FREQUENTLY ASKED QUESTIONS
+          </div>
+          <div class="text-center">
+            <span class="d-inline px-3 m-1" style="background-color:rgba(131, 176, 197, 0.637); font-size: 0.1em;"></span>
+            <span class="d-inline px-3"  style="background-color:rgba(14, 168, 240, 0.637); font-size: 0.25em;"></span>
+            <span class="d-inline px-3 m-1 "  style="background-color: rgba(131, 176, 197, 0.637); font-size: 0.1em;"></span>
+          </div>
+          <div class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere et
+            deserunt fugiat explicabo corporis dolor amet voluptates veniam alias
+            voluptatibus.
+          </div>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item m-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Lorem ipsum dolor sit, amet consectetur adipisicing.
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong
+                    >Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.</strong
+                  >
+                  It is shown by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this with
+                  custom CSS or overriding our default variables. It's also worth
+                  noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item m-3">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Facere.
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>Lorem ipsum dolor sit amet consectetur..</strong> It is
+                  hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this with
+                  custom CSS or overriding our default variables. It's also worth
+                  noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item m-3">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Excepturi, numquam.
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong
+                    >Lorem ipsum dolor sit amet consectetur adipisicing.</strong
+                  >
+                  It is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this with
+                  custom CSS or overriding our default variables. It's also worth
+                  noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="col-1"></div>
+      </div>
+    </section>
+    <!-- Submit ur email -->
+    <section id="emailsubmit" class="text-center container-fluid d-flex flex-column bg-secondary bg-opacity-10 p-4 ">
+      <h3 class="text-info">Join News Letter</h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, soluta.
+        <div class="input-group my-3 container justify-content-center d-flex flex-row">
+          <input type="text" placeholder="Enter your Email" style="border-radius: 10px;" class="px-5">
+          <button type="submit" class="btn btn-primary ms-2" style="border-radius: 10px;">Subscribe</button>  
+        </div>
+    </section>
+<!-- Footer  -->
+      <section id="footer">
+        <div class="container-fluid d-flex flex-column py-3 ">
+          <div class="container  d-flex flex-row justify-content-around">
+            <div class="col-1"></div>
+            <div class="col-2">
+              <h1 class=" text-primary">Impact</h1>
+              <pre>D-No:15/564
+madhapur,
+Hyderabad,
+500081.
+              </pre>
+
+<pre>Phone: +1 55455 84165
+Email: info@example.com</pre>
+<p></p>
+            </div>
+            <div class="col-2 d-flex py-3">
+            <ol class="usefull m-auto  font-weight-bold " style="list-style: none;">
+              <p class="h5 text-primary"> Useful Links</p>
+              <li class="usefull pt-3">
+                <a class="active text-decoration-none text-dark font-weight-bold "
+                aria-current="page"
+                href="#">Home</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class="active text-decoration-none text-dark font-weight-bold "
+                aria-current="page"
+                href="#">Services</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class="text-decoration-none  text-dark font-weight-bold "
+                href="#about">About Us</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class="text-decoration-none  text-dark font-weight-bold "
+                href="#product">Terms of Services</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class=" text-decoration-none text-dark font-weight-bold "
+                href="#social">Privacy Policy</a>
+              </li>
+              </ol>
+          </div>
+          <div class="col-3 d-flex py-3">
+            <ol class="usefull m-auto " style="list-style: none;">
+              <p class="h5 text-primary"> Our Services</p>
+              <li class="usefull pt-3">
+                <a class="active text-decoration-none text-dark font-weight-bold "
+                aria-current="page"
+                href="#">Webdesign</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class="active text-decoration-none text-dark font-weight-bold "
+                aria-current="page"
+                href="#">Web Development</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class=" text-decoration-none text-dark font-weight-bold "
+                href="#about">Product Management</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class=" text-decoration-none text-dark font-weight-bold "
+                href="#product">Marketing</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class=" text-decoration-none text-dark font-weight-bold "
+                href="#social">Graphic Design</a>
+              </li>
+              </ol>
+          </div>
+          <div class="col-3 ps-5 pt-4">
+            <h6 class=" text-primary">Our Social Networks</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="d-flex flex-row text-end justify-content-start ">
+              <a class="nav-link About p-1 mx-2 bg-primary rounded-circle px-2"  style="color: white;" aria-current="page" href="#">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;"  aria-current="page" href="#">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;"  aria-current="page" href="#">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a class="nav-link About p-1 mx-2 bg-primary  rounded-circle px-2 " style="color: white;" aria-current="page" href="#">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              </div>
+          </div>
+        </div>
+        </div>
+        <div class="text-center text-light d-flex flex-row justify-content-between p-3 px-5" style="background-color: rgb(15, 42, 117)">
+          <div>@copyright Impact. All Rights Received</div> 
+          <div>Designed by BootstrapMade</div>
+        </div>
+      </section>
+      <script src="https://kit.fontawesome.com/a4b1e131ea.js" crossorigin="anonymous"></script>
+      
+  </body>
+</html>
