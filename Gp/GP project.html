@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles Sheet only -->
+    <style>
+                    #footer li:before  {
+                content: ">";
+                padding-right: 5px;
+                color: rgb(255, 217, 0); }
+
+              .img1{
+                  filter: grayscale(100%); }
+    </style>
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+     <!-- Icons link for Bootstrap icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+     
+    <title>GP</title>
+  </head>
+    <!-- Navigatin bar  -->
+    <section class="col-md-12 container-fluid d-flex flex-column" id="nav" style="background: rgb(0, 0, 0);background-image: url('./assets/img/hero-bg.jpg')">
+    <div class="d-flex flex-row">
+        <ul class="nav justify-content-start col-md-10">
+          <li class="nav-item col-md-4 text-center h3 pe-3">
+            <a class="nav-link text-light" aria-current="page" href="#"
+              >GP.</a
+            >
+          </li>
+          <li class="nav-item pt-2" >
+            <a class="nav-link Home" aria-current="page" href="#"  style="color: rgb(228, 171, 13);" 
+              >Home</a
+            >
+          </li>
+          <li class="nav-item pt-2">
+            <a class="nav-link About text-light" aria-current="page" href="#"
+              >About</a
+            >
+          </li>
+          <li class="nav-item pt-2">
+            <a class="nav-link Services text-light" aria-current="page" href="#"
+              >Services</a>
+            
+          </li>
+          <li class="nav-item pt-2">
+            <a
+              class="nav-link Portfolio text-light"
+              aria-current="page"
+              href="#"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav-item pt-2">
+            <a class="nav-link Team text-light" aria-current="page" href="#"
+              >Team</a
+            >
+          </li>
+          <li class="nav-item dropdown text-center  pt-2 ">
+            <a
+              class="nav-link dropdown-toggle text-light"
+              data-bs-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              
+              >Drop Down</a
+            >
+          </li>
+          <li class="nav-item pt-2">
+            <a class="nav-link text-light" href="#">Contact</a>
+          </li>
+        </ul>
+        <div class="nav-item col-md-2  pt-2 text-end ">
+            <button class="nav-link active text-light p-1 px-3 mt-1" style="border-color: rgb(228, 171, 13); background: rgb(0, 0, 0); border-radius:5px;">Get started</button>
+        </div>
+    </div>
+    <div class="text-light d-flex d-row pt-5 text-center" style="font-size: 20px;">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <h1>Powerful Digital Solutions With Gp.</h1>
+            We are a team of talented digital marketrs
+        </div>
+        <div class="col-4"></div>
+    </div>
+    <div class="card d-flex flex-row text-light text-center mb-5 mt-4" style="background:none; font-size: 30px; border: none;" >
+        <div class="col-2"></div>
+        <div class="card-body m-2" style="border: 1px solid rgba(207, 201, 201, 0.322);" >
+            <div><i class=" fa-solid fa-store" style="color: rgb(228, 171, 13);"></i></div>
+          <p class="h6 card-text"  style="font-size: 20px;">Dolor sit amet.</p>
+        </div>
+        <div class="card-body m-2" style="border: 1px solid rgba(207, 201, 201, 0.322);">
+            <div><i class="fa-solid fa-square-poll-vertical" style="color: rgb(228, 171, 13);"></i></div>
+            <p class="h6 card-text"  style="font-size: 20px;">Ipsum dolor.</p>
+        </div>
+        <div class="card-body m-2" style="border: 1px solid rgba(207, 201, 201, 0.322);">
+            <div><i class="fa-regular fa-calendar"  style="color: rgb(228, 171, 13);"></i></div>
+            <p class="h6 card-text"  style="font-size: 20px;">Lorem, ipsum.</p>
+        </div>
+        <div class="card-body m-2" style="border: 1px solid rgba(207, 201, 201, 0.322);">
+            <div><i class="fa-solid fa-paint-roller"  style="color: rgb(228, 171, 13);"></i></div>
+            <p class="h6 card-text"  style="font-size: 20px;">make content.</p>
+        </div>
+        <div class="card-body m-2" style="border: 1px solid rgba(207, 201, 201, 0.322);">
+            <div><i class="fa-solid fa-database"  style="color: rgb(228, 171, 13);"></i></div>
+            <p class="h6 text-light"  style="font-size: 20px;">Card's content.</p>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </section>
+    <!-- Introduction -->
+    <section class="container col-md-12" id="intro">
+    <div  class="intro d-flex flex-row mt-5 ps-2" >  
+      <div class="col-6">
+        <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, cupiditate?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente inventore nisi corporis recusandae voluptas modi.</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+          <li>Lorem ipsum dolor sit amet consectetur.</li>
+          <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit delectus ipsam doloremque tempora sequi, dolore exercitationem excepturi illum aut saepe.</li> 
+        </ul>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur culpa ut fugiat dicta cupiditate tenetur provident sequi reiciendis necessitatibus possimus, quaerat ea, aliquid, facere cum! Suscipit, doloremque. Voluptatum, molestiae nisi.
+      </div>
+      <div class="col-6 ms-4">
+      <img class="img-fluid" src="./assets/img/about.jpg" alt="">
+      </div>
+    </div> 
+    </section>
+ <!-- Clients Images  -->
+  <section id="clients">
+    <div class="container-fluid d-flex flex-column align-items-center">
+    <div class="clients col-md-12 d-flex flex-row justify-content-around ms-5 ps-5 mt-4">
+      <div class="col-1 p-3">
+        <img
+          class="img1 img-fluid"
+          src="./assets/img/clients/client-1.png"
+          alt="clients"
+        />
+      </div>
+      <div class="col-1"></div>
+      <div class="col-1 p-3">
+        <img
+          class="img1 img-fluid"
+          src="./assets/img/clients/client-2.png"
+          alt="clients"
+        />
+      </div>
+      <div class="col-1"></div>
+      <div class="col-1 p-3">
+        <img
+          class="img1 img-fluid"
+          src="./assets/img/clients/client-3.png"
+          alt="clients"
+        />
+      </div>
+      <div class="col-1"></div>
+      <div class="col-1 p-3">
+        <img
+          class="img1 img-fluid"
+          src="./assets/img/clients/client-4.png"
+          alt="clients"
+        />
+      </div>
+      <div class="col-1"></div>
+      <div class="col-1 p-3">
+        <img
+          class="img1 img-fluid"
+          src="./assets/img/clients/client-5.png"
+          alt="clients"
+        />
+      </div>
+      <div class="col-1"></div>
+      <div class="col-1 p-3">
+        <img
+          class="img1 img-fluid"
+          src="./assets/img/clients/client-6.png"
+          alt="clients"
+        />
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div style="font-size: 12px;">
+      <p class="bi bi-circle-fill d-inline" style="color:  rgba(117, 112, 112, 0.726); font-size:12px;"></p>
+      <p class="bi bi-circle-fill d-inline" style="color:  rgba(117, 112, 112, 0.726); font-size:12px;"></p>
+      <p class="bi bi-circle-fill d-inline" style="color:  rgba(117, 112, 112, 0.726); font-size:12px;"></p>
+      <p class="bi bi-circle-fill d-inline" style="color:  rgba(117, 112, 112, 0.726); font-size:12px;"></p>
+      <p class="bi bi-circle-fill d-inline" style="color:  rgb(228, 171, 13); font-size:12px;"></p>
+      <p class="bi bi-circle-fill d-inline" style="color:  rgba(117, 112, 112, 0.726); font-size:12px;"></p>
+      <p class="bi bi-circle-fill d-inline" style="color:  rgba(117, 112, 112, 0.726); font-size:12px;"></p>
+      <p class="bi bi-circle-fill d-inline" style="color:  rgba(117, 112, 112, 0.726); font-size:12px;"></p>
+    </div>
+  </div>
+  
+  </section>
+  <!-- Features -->
+  <section class="container-fluid col-md-12" id="features">
+    <div  class="features d-flex flex-row mx-5 mt-5 ps-2" >  
+      <div class="col-md-5 ms-4">
+        <img class="img-fluid" src="./assets/img/features.jpg" alt="features">
+        </div>
+        <div class="col-1"></div>
+      <div class="col-md-5 d-flex flex-column me-5  justify-content-around">
+          <div class="d-flex flex-row">
+            <div><img class="img-fluid" src="./assets/img/New folder/1.bmp" alt=""></div>
+            <div class="ps-1">
+              <h5>  Est Labore ad</h5>
+              <p class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, facilis.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row">
+            <div><img class="img-fluid" src="./assets/img/New folder/3.bmp" alt=""></div>
+            <div>
+                <h5>  Harum esse qui</h5>              
+                <p class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, facilis.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row">
+            <div><img class="img-fluid" src="./assets/img/New folder/2.bmp" alt=""></div>
+            <div>
+                  <h5>  Aut occeacati</h5>
+                  <p class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, facilis.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row">
+            <div><img class="img-fluid" src="./assets/img/New folder/4.bmp" alt=""></div>
+            <div>
+                  <h5>  Beatae veritatis</h5>
+                  <p class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, facilis.</p>
+            </div>
+          </div>
+      </div>
+
+    </div> 
+    </section>
+    <!-- Services -->
+    <section id="Services" class=" col-md-12 container d-flex flex-column mt-4">
+        <div> Services <span class="d-inline px-5 m-1 "  style="background-color: rgb(241, 224, 177); font-size: 0.1em;"></span></div>
+        <div class="h3">CHECK OUR SERVICES </div>
+        <div class="container d-flex flex-row justify-content-between mt-5 text-center">
+          <div
+            class="d-flex flex-column card card-body shadow ms-3 m-2 p-5 bg-body rounded"
+            style="width: 18rem"
+          >
+              <div class="p-2"><img src="./assets/New folder/1.bmp" alt=""> </div>
+              <div>
+              <h5 class="card-title ">Lorem, ipsum dolor.</h5>
+              <p>
+                Asperiores itaque reiciendis voluptatibus laudantium cumque obcaecati.
+              </p>
+              </div>
+          </div>
+          <div
+            class="d-flex flex-column card card-body m-2 ms-3 p-5 shadow bg-body rounded"
+            style="width: 18rem"
+          >
+          <div class="p-2"><img src="./assets/New folder/2.bmp" alt=""> </div>
+          <div>
+            <h5 class="card-title">Lorem, ipsum dolor.</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur  obcaecati?
+            </p>
+          </div>
+          </div>
+          <div
+            class="d-flex flex-column card card-body shadow m-2 ms-3 p-5 bg-body rounded"
+            style="width: 18rem"
+          >
+          <div class="p-2"><img src="./assets/New folder/3.bmp" alt=""></div>
+          <div>
+            <h5 class="card-title">Lorem, ipsum dolor.</h5>
+            <p>
+              Consectetur adipisicing elit. Asperior laudantium cumque obcaecati?
+            </p>
+          </div>
+        </div>
+      </div>
+        <div class="container col-md-12 d-flex flex-row justify-content-between my-2 text-center">
+          <div
+            class="d-flex flex-column card card-body shadow m-2 ms-3 p-5 bg-body rounded"
+            style="width: 18rem"
+          >
+              <div class="p-2"><img src="./assets/New folder/4.bmp" alt="">        </div>
+              <div>
+              <h5 class="card-title ">Lorem, ipsum dolor.</h5>
+              <p>
+                Asperiores itaque reiciendis voluptatibus laudantium cumque obcaecati.
+              </p>
+              </div>
+          </div>
+          <div
+            class="d-flex flex-column card card-body m-2 ms-3 p-5 shadow bg-body rounded"
+            style="width: 18rem"
+          >
+          <div class="p-2"><img src="./assets/New folder/5.bmp" alt="">        </div>
+            <div>
+            <h5 class="card-title">Lorem, ipsum dolor.</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur  obcaecati?
+            </p>
+          </div>
+        </div>
+          <div
+            class="d-flex flex-column card card-body shadow m-2 ms-3 p-5 bg-body rounded"
+            style="width: 18rem"
+          >
+          <div class="p-2"><img src="./assets/New folder/6.bmp" alt="">        </div>
+            <div>
+            <h5 class="card-title">Lorem, ipsum dolor.</h5>
+            <p>
+              Consectetur adipisicing elit. Asperior laudantium cumque obcaecati?
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- Action -->
+  <section id="action" class="col-12 container-fluid mt-4">
+    <div
+      class="bg-image action col-md-12 img-responsive d-flex flex-column align-items-center p-5" id="action-row"
+      style="background-image: url('./assets/img/cta-bg.jpg')">
+        <h1 class="text-white text-light">Call to Action</h1>
+            <p class="text-white text-start text-light col-md-10">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem,
+              ipsum dolor sit amet consectetur adipisicing elit. Odio
+              quibusdam quaerat aliquam ratione dolorum fugit saepe magnam
+              soluta minus eius. Omnis aperiam in deserunt, sit eius deleniti
+              voluptatibus? Nam molestiae maxime mollitia quia optio sint iste
+              nostrum.
+            </p>
+              <button
+                type="button"
+                class="btn text-center text-white" style="border-color: white;" > Custom button
+              </button>
+    </div>
+</section>
+  <!-- Experiance -->
+  <section class="container-fluid col-12" id="Experiance">
+    <div  class="features d-flex flex-row mx-5 my-4 ps-2" >  
+    <div class="col-4 ms-5">
+        <img class="img-fluid" src="./assets/img/counts-img.jpg" alt="features">
+        </div>
+        <div class="col-1"></div>
+      <div class="col-6 d-flex flex-column me-5  justify-content-around">
+        <h2>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quo!</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quam ex quidem? Ducimus fugit laboriosam dignissimos veritatis, facere explicabo quasi tempora in, adipisci repellat odit.</p>
+          <div class="d-flex">
+        <div class="d-flex flex-row">
+            <div><img class="img-fluid" src="./assets/img/New folder/1.bmp" alt=""></div>
+            <div class="ps-1">
+              <h5>  Est Labore ad</h5>
+              <p class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, facilis.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row">
+            <div><img class="img-fluid" src="./assets/img/New folder/3.bmp" alt=""></div>
+            <div>
+                <h5>  Harum esse qui</h5>              
+                <p class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, facilis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="d-flex flex-row">
+            <div><img class="img-fluid" src="./assets/img/New folder/2.bmp" alt=""></div>
+            <div>
+                  <h5>  Aut occeacati</h5>
+                  <p class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, facilis.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row">
+            <div><img class="img-fluid" src="./assets/img/New folder/4.bmp" alt=""></div>
+            <div>
+                  <h5>  Beatae veritatis</h5>
+                  <p class="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, facilis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div> 
+    </section>
+    <!-- Store Owner details-->
+    <section id="owner" class="container-fluid">
+      <div class="  bg-image d-flex flex-row align-items-center p-5 text-light"
+            style="background-image: url('./assets/img/testimonials-bg.jpg')">
+      <div class="col-md-3"></div>
+      <div class="col-6 text-center d-flex flex-column align-items-center">
+          <div class=""  style="width: 5rem;">
+              <img class="img-fluid  rounded-circle" src="./assets/img/testimonials/testimonials-3.jpg" alt="">
+          </div>
+          <h5>Jenna Karlis</h5>
+          <p>Store Owner</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quisquam rem minus temporibus libero aliquid voluptates illo! Fugit, quod vel!</p>
+          <div><p class="bi bi-circle-fill d-inline" style="color:  rgba(255, 255, 255, 0.726); font-size:12px;"></p>
+            <p class="bi bi-circle-fill d-inline" style="color:  rgba(255, 255, 255, 0.726); font-size:12px;"></p>
+            <p class="bi bi-circle-fill d-inline" style="color:  rgb(228, 171, 13); font-size:12px;"></p>
+            <p class="bi bi-circle-fill d-inline" style="color:  rgba(255, 255, 255, 0.726); font-size:12px;"></p>
+            <p class="bi bi-circle-fill d-inline" style="color:  rgba(255, 255, 255, 0.726); font-size:12px;"></p></div>
+        </div>
+      <div class="col-md-3"></div>
+      </div>   
+</section>
+<!-- TEAM -->
+<section id="team" class="container d-flex flex-column py-4">
+      <div> TEAM  <span class="d-inline px-5 m-1 "  style="background-color: rgb(241, 224, 177); font-size: 0.1em;"></span></div>
+      <div class="h3">CHECK OUR TEAM</div>
+      <div class="col-md-12 d-flex flex-row justify-content-around pt-2 px-3 ms-2">
+        <div
+          class=" col-3 d-flex flex-column shadow mt-3 mx-2 text-start rounded pb-4"
+          style="width: 18rem"
+        >
+        <img class="rounded-top" src="./assets/img/team/team-1.jpg "  alt="blog-1" />
+        <div class=" text-start ps-4 pt-2">
+          <h5 class="h6">Lorem</h5>  
+          <p class="disabled">Chief Officer</p>  
+          </div>
+        </div>
+        <div
+        class=" col-3 d-flex flex-column shadow mt-3 mx-2 text-start rounded pb-4"
+        style="width: 18rem"
+      >
+      <img class="rounded-top" src="./assets/img/team/team-2.jpg "  alt="blog-2" />
+      <div class="text-start ps-4 pt-2">
+        <h5 class="h6">Consectetur adipisicing.</h5> 
+        <p class="disabled">Product Manager</p>              
+        </div>
+      </div>
+        <div
+          class="col-3 d-flex flex-column shadow mt-3 mx-2 text-start rounded pb-4"
+          style="width: 18rem"
+        >
+        <img class="rounded-top" src="./assets/img/team/team-3.jpg "  alt="blog-3" />
+        <div class="text-start ps-4 pt-2">
+          <h5 class="h6">Lorem, ipsum</h5> 
+          <p class="disabled">CTO</p>              
+          </div>
+          </div>
+          <div
+          class="col-3 d-flex flex-column shadow mt-3 mx-2 text-start rounded pb-4"
+          style="width: 18rem"
+        >
+        <img class="rounded-top" src="./assets/img/team/team-4.jpg "  alt="blog-4" />
+        <div class="text-start ps-4 pt-2">
+          <h5 class="h6">Amet consectetur</h5> 
+          <p class="disabled">Accountant</p>              
+          </div>
+          </div>
+        </div>  
+</section>
+<section id="footer" >
+  <div class="container-fluid d-flex flex-row py-4 text-light" style="background-color: rgb(16, 17, 17);">
+    <div class="col-1"></div>
+            <div class="col-2 d-flex flex-column">
+              <h1 class=" text-light">GP.</h1>
+              <pre>D-No:15/564
+madhapur,
+Hyderabad,
+500081.</pre>
+<pre>Phone: +1 55455 84165
+Email: info@example.com</pre>
+                  <div class="d-flex flex-row text-end justify-content-start pb-4">
+                    <a class="nav-link About p-1 me-2 px-2"  style="color: white; background-color:  rgb(228, 171, 13);" aria-current="page" href="#">
+                      <i class="bi bi-twitter"></i>
+                    </a>
+                    <a class="nav-link About p-1 mx-2 px-2 " style="color: white; background-color:  rgb(228, 171, 13);"  aria-current="page" href="#">
+                      <i class="bi bi-facebook"></i>
+                    </a>
+                    <a class="nav-link About p-1 mx-2 px-2 " style="color: white; background-color:  rgb(228, 171, 13);"  aria-current="page" href="#">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                    <a class="nav-link About p-1 mx-2 px-2 " style="color: white; background-color:  rgb(228, 171, 13);" aria-current="page" href="#">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                    </div>
+                </div>
+            <div class="col-2 d-flex py-3">
+            <ol class="usefull m-auto  font-weight-bold " style="list-style: none;">
+              <p class="h5"> Useful Links</p>
+              <li class="usefull pt-3">
+                <a class="active text-decoration-none text-light font-weight-bold "
+                aria-current="page"
+                href="#">Home</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class="active text-decoration-none text-light font-weight-bold "
+                aria-current="page"
+                href="#">Services</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class="text-decoration-none  text-light font-weight-bold "
+                href="#about">About Us</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class="text-decoration-none  text-light font-weight-bold "
+                href="#product">Terms of Services</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class=" text-decoration-none text-light font-weight-bold "
+                href="#social">Privacy Policy</a>
+              </li>
+              </ol>
+          </div>
+          <div class="col-3 d-flex py-3">
+            <ol class="usefull m-auto " style="list-style: none;">
+              <p class="h5"> Our Services</p>
+              <li class="usefull pt-3">
+                <a class="active text-decoration-none text-light font-weight-bold "
+                aria-current="page"
+                href="#">Webdesign</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class="active text-decoration-none text-light font-weight-bold "
+                aria-current="page"
+                href="#">Web Development</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class=" text-decoration-none text-light font-weight-bold "
+                href="#about">Product Management</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class=" text-decoration-none text-light font-weight-bold "
+                href="#product">Marketing</a>
+              </li>
+              <li class="usefull pt-3">
+                <a class=" text-decoration-none text-light font-weight-bold "
+                href="#social">Graphic Design</a>
+              </li>
+              </ol>
+          </div>
+          <div class="col-3 ps-5 pt-4">
+            <h5>Our Social Networks</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="d-flex flex-row text-light">
+              <input type="text" placeholder="Enter your Email">
+              <button type="submit" class="btn" style="background-color:  rgb(228, 171, 13); border-radius:0mm;">Subscribe</button>  
+            </div>
+          </div>
+          </div>
+
+        </div>
+
+<section id="design">
+  <div class="text-center justify-content-between p-2 px-5"  style="color:  rgb(228, 171, 13); background-color:  rgb(0, 0, 0);">
+    <div>@copyright Impact. All Rights Received</div> 
+    <div>Designed by BootstrapMade</div>
+  </div>
+</section>
+</section>
+<!-- Fontawesome link to use icons -->
+<script src="https://kit.fontawesome.com/a4b1e131ea.js" crossorigin="anonymous"></script>
+</body>
+ 
+</html>
