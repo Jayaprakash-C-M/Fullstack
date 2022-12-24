@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let str=prompt("Enter any string ")
+        let str1=prompt("Enter any string to find"), x
+        for(i=0;i<str.length;i++){
+                if (str[i]==str1[0]) { l=i+1; for(x=1;x<str1.length;) {  if(str[l]==str1[x]){ x++;l++;} else{ break;}}  } 
+                if((x)==str1.length){break}
+            }
+            if((x)==str1.length){console.log(str1,"is inside the",str);}
+            else {console.log(str1,"is not inside the",str);}
+
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title>
+    <script>
+        let str=prompt("Enter any string ")
+        let p=[],count
+        for(i=0;i<=str.length;i++){
+            n=0
+            for(x=0;x<=str.length;x++){
+                if(str[i]==str[x]){n++}
+                else{p[i]=n}
+            }
+        }
+      
+        for(i=0;i<=p.length;i++) { if(p[i]==1) { console.log(str[i]); break;} }
+
+    </script>
+</head>
+<body>
+</body>
+</html>

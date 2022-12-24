@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let mailid=prompt("Enter Mail id as example@example.com") 
+
+       function protect_email(str) {
+        let str1=''
+        for(i=0;i<str.length;i++){
+                
+                if (i>4 && i<(str.indexOf("@"))) { str1=str1.concat("*");}
+                else{ str1=str1.concat(str[i]);}
+            }
+        return str1 }
+           console.log(protect_email(mailid));
+
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Untitled-1.css">
+    <title>Document</title>
+    <script>
+        let str=prompt("Enter any string ")
+        let n=prompt("Enter Index value of char to find it is a vowel or consonent")
+
+            if(n<str.length){
+            if(str[n]=="a" ||str[n]=="e" ||str[n]=="i" || str[n]=="o" ||str[n]=="u" ||str[n]=="A" ||str[n]=="E" ||str[n]=="I" || str[n]=="O" ||str[n]=="U" )
+            {
+                console.log(str[n],'is Vowel') 
+            }
+            else if((str[n] > 'a' && str[n] <= 'z') || (str[n] > 'A' && str[n] <= 'Z'))
+            {
+                console.log(str[n],'is a Consonent') 
+            }
+        }
+            else {
+
+                console.log("Enter value of any value which is lower than length of string i.e",str.length)
+            }
+    </script>
+</head>
+<body>
+</body>
+</html>

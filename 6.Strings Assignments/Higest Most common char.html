@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Untitled-1.css">
+    <title>Document</title>
+    <script>
+        let str=prompt("Enter any string ")
+        let p=[],count
+        for(i=0;i<=str.length;i++){
+            n=0
+            for(x=i;x<=str.length;x++){
+                if(str[i]==str[x]){n++}
+                else{p[i]=n}
+            }
+        }
+        
+        let l=2, v=[], y=0
+      
+        for(i=0;i<=p.length;i++) { if(p[i]>=l) { l=p[i]; v[y]=str[i];y++} }
+
+            if(v[0]==null){console.log("Please Enter another string with atleast one repeatable character");}
+            // else{ console.log(v,"is the first most common charater in",str);}
+        let a=''
+        for(i=0;i<=v.length;i++) { if(v[i]>=a) { a=v[i]} }
+        console.log(a,"is the higest of all the common charaters");
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let al=prompt("enter array length of array contain string to sort")
+        console.log(al);
+        let arr=[],m=0,a
+        
+        arr=al.split(" ")
+
+        let arr1=[],arr2=[]
+        let z=0
+        for(i=0;i<(arr.length);i++)
+        {
+            arr1[i]=arr[i].length
+        }
+        console.log(arr1);
+        
+        for(x=0;x<=arr1.length;x++)
+        {
+
+            for(y=0;y<arr1.length;y++)
+            {
+                if(arr1[y]>arr1[x])
+                {
+                    arr2[z]=arr[y];
+                    z++;
+                    arr1[y]=0;
+                }
+            }
+        }
+        console.log(arr2);
+
+
+        // arr1=arr1.sort()
+        // a=arr1[0]   
+        // for(x=0;x<(arr1.length);x++) { if(arr1[x]<=a) { let z=arr1[x]; arr1[x]=a;a=z;  {; arr2[y]=arr[x]; y++} }}
+
+        // console.log(arr,arr1,arr2);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

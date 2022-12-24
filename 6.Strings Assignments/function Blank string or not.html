@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let string=prompt("Enter any string ")
+       function is_Blank(str) {
+       let x=0
+        for(i=0;i<str.length;i++){
+                if (str[i]==" " ||str[i]==undefined ||str[i]==null ) { x++ } 
+                else{ return false; break;}
+            }
+            if(x==str.length) {return true;} }
+
+           console.log(is_Blank(string));
+
+    </script>
+</head>
+<body>
+</body>
+</html>
